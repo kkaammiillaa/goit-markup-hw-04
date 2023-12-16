@@ -147,6 +147,10 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
@@ -325,12 +329,12 @@ img {
   color: #f4f4fd;
 
   transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link:hover,
 .socials-link:focus {
   background-color: #404bbf;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-icon {
   fill: currentColor;
@@ -441,10 +445,13 @@ img {
   align-items: center;
   gap: 16px;
 }
+.footer .socials-link {
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .footer .socials-link:hover,
 .footer .socials-link:focus {
   background-color: #31d0aa;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
